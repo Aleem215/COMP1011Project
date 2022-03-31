@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robots Living with Us</title>
+</head>    
+    <style>
+
+body{
+     min-height: 100%;
+     border-spacing: none;
+     background-color:rgb(0,0,0);
+     padding: 0px;
+     line-height: 0px;
+     margin:0px;
+    
+    }
+  
+form{
+    padding: 0px;
+     line-height: 0px;
+}
+table{
+        border:1px solid rgb(221, 221, 221);
+        
+}
+   
+td,th,thead,tbody{
+        text-align: left;
+        border-collapse: collapse;
+        padding: 1em;
+        border:1px solid rgb(221, 221, 221);
+        border-width:1px;
+        
+}
+summary{
+    background-color:#d9dcd6;
+    padding: 1em;
+    
+}
+
+header{
+    top:0;
+    box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.31);
+    padding: 1em;
+}
+
+header, footer{ 
+    line-height: 20px;
+    background-color: #3A7CA5;
+    padding: 1em;
+    color: white;
+    
+}
+
+details{
+    border-spacing:16px;
+    padding:1em;
+    line-height: 1em;
+    margin:16px;
+}
+    
+img{
+        width:400px
+}
+
+ul{
+        list-style-type: none;
+}
+
+li a{
+        color:black;
+        text-align: left;
+        text-decoration: solid;
+        font-weight:bold;
+        word-spacing: 2px;
+}
+
+li a:hover{
+        background-color: white;
+        border-radius: 18px;
+        
+}
+
+li{
+        float:left;
+
+}
+
+
+
+id{
+        height:400px;
+}
+#mwd{
+    
+    border-style: ridge;
+    border-color: black;
+    background-color: white;
+    line-height: 1em;
+    padding: 1.5em;
+    margin:16px;
+
+}
+#mp{
+    height:400px;
+    border-radius: 4px; 
+    border-style: ridge;
+    border-color: black;
+    background-color: white;
+    line-height: 1em;
+    padding: 1.5em;
+    margin:16px;
+}
+#me{
+    height:400px;
+    border-radius: 4px;
+    border-style: ridge;
+    border-color: black;
+    background-color: white;
+    line-height: 1em;
+    padding: 1.5em;
+    margin:16px;
+
+}
+
+#vpl{
+    height:400px;
+    border-radius: 4px;
+    border-style: ridge;
+    border-color: black;
+    background-color: white;
+    line-height: 1em;
+    padding: 1.5em;
+    margin:16px;
+}
+
+.button{
+        background-color:white;
+        color:black;
+        text-align: center;
+        border-radius:18px ;
+}
+    </style>
+
+<body>
+    <header> The Pigeon Site </header>
+    <header>
+<nav>
+<ul>
+        <li><a href="#mwd" class="button">Microsoft Word Document</a></li>
+        <li><a href="#mp" class="button">Microsoft Powerpont</a></li>
+        <li><a href="#me" class="button">Microsoft Excel</a></li></div>
+        <li><a href="#vpl" class="button">Video Presentation Link</a></li>
+    </ul>
+</nav>
+    </header> 
+
+    
+<main>
+
+    <section id="picture" >
+        <h1>Picture</h1>
+        <img src="pigeon.jpg"></img>
+    </section>
+</main>
+
+<br>
+<br>
+<br>
+
+<main>
+    <section id="famous-pigeons">
+        <h1>Famous Pigeons</h1>
+        <table>
+        <thead>
+            <th>Name</th>
+            <th>Bio</th>
+        </thead>
+ <tbody >
+        <tr>
+            <td >G. I. Joe</td>
+            <td > Flown 20 miles to cancel a bombing on friendly British Troops.</td>
+        </tr>
+
+        <tr>
+            <td > Cher Ami</td>
+            <td >Flown for 25 minutes to deliver a crucial message to base despite shot at.</td>
+        </tr>
+        
+        <tr>
+            <td >Mocker</td>
+            <td >Delivered a life-saving message after losing its eye from artillery fire.</td>
+        </tr>  
+    </tbody>
+    </table>
+</section>
+</main>
+
+<br>
+<br>
+<br>
+<main>
+    <h1>Picture</h1>
+    <section id="trivia">
+        
+        <h1>Trivia</h1>
+        <details>
+            <summary>They Understand Space and Time </summary>
+            <p>A 2017 study found pigeons could evaluate the time it takes a digital line to be drawn according to its length.</p>
+        </details>
+<br>
+
+        <details>
+        <summary>They are Excellent at Homing</summary>
+        <p>Pigeons can find their way home from 1300 miles away even if they've been transported in complete isolation.</p>
+        </details>  
+<br>
+
+        <details>
+        <summary>They can diagnose cancer</summary>
+        <p>A 2015 study revealed that pigeons can be trained to diagnose cancer from images with astonishing accuracy of 99%.</p>
+        </details>
+    </section>
+</main>
+
+<br>
+
+    <section id="contactus">
+        <h1>Contact Us</h1>
+        <form action="action_page.php"style="padding:1em">
+        <label for="email" id="email" name="email">Email</label>
+        <input type="email" id="email" name="email"></input>
+
+<br>
+        <label for="message" id="message" name="message">Message</label>
+        <textarea  id="message" name="message" rows="4" cols="20"></textarea>
+<br>
+<br>
+        <input type="submit" value="Submit"></input>
+        </form>
+    </section>
+     
+
+
+<footer>
+    <p> Aleem Mohammed 816000137</p>
+</footer>
+
+   
+</body>
+</html>
